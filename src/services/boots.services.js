@@ -27,15 +27,15 @@ class BootsServices {
   async updateBoot({ name, description, price, img, id }) {
     const bootUpdate = { name, description, price, img };
     try {
-      await Boots.updateOne({_id: id}, bootUpdate);
+      await Boots.updateOne({ _id: id }, bootUpdate);
       const updatedBoot = await Boots.findById(id);
       return updatedBoot;
-    } catch (error) {
-      throw error;
+    } catch (err) {
+      throw err;
     }
   }
 
-  async deleteBoot({id}) {
+  async deleteBoot({ id }) {
     return await Boots.findByIdAndDelete(id);
   }
 }
