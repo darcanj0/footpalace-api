@@ -3,60 +3,60 @@
     "name": "Nike Mercurial Vapor 14 Elite",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "price": 69.99,
-    "img": "require('../assets/images/mercurial-black.png')"
+    "img": "https://i.imgur.com/sBF1mfp.png"
   },
   {
     "name": "Nike Mercurial Vapor 14 Elite",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "price": 69.99,
-    "img": "require('../assets/images/mercurial-blue.png')"
+    "img": "https://i.imgur.com/RmbuFWB.png"
   },
   {
     "name": "Nike Mercurial Superfly 8 Elite",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "price": 69.99,
-    "img": "require('../assets/images/mercurial-light-blue.png')"
+    "img": "https://i.imgur.com/NUtljlW.png"
   },
   {
     "name": "Nike Mercurial Superfly 8 Club",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "price": 69.99,
-    "img": "require('../assets/images/mercurial-neon.png')"
+    "img": "https://i.imgur.com/9gXB3XO.png"
   },
   {
     "name": "Nike Mercurial Superfly 8 Academy",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "price": 69.99,
-    "img": "require('../assets/images/mercurial-purple.png')"
+    "img": "https://i.imgur.com/Hkpt80y.png"
   },
   {
     "name": "Nike Mercurial Superfly 8 Academy CR-7",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "price": 69.99,
-    "img": "require('../assets/images/mercurial-white-red.png')"
+    "img": "https://i.imgur.com/s4N0ZcC.png"
   },
   {
     "name": "Nike Phantom GT2 Pro",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "price": 69.99,
-    "img": "require('../assets/images/phantom-green.png')"
+    "img": "https://i.imgur.com/C0AEBNE.png"
   },
   {
     "name": "Nike Phantom GT2 Elite",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "price": 69.99,
-    "img": "require('../assets/images/phantom-orange.png')"
+    "img": "https://i.imgur.com/w9CNFfA.png"
   },
   {
     "name": "Nike Phantom GT2 Academy",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "price": 69.99,
-    "img": "require('../assets/images/phantom-purple.png')"
+    "img": "https://i.imgur.com/qGxZuLF.png"
   },
   {
     "name": "Nike Tiempo Legend 9 Club",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "price": 69.99,
-    "img": "require('../assets/images/tiempo-red.png')"
+    "img": "https://i.imgur.com/8Z41nN5.png"
   }
 ]
