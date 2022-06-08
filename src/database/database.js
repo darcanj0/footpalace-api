@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const { connect } = mongoose;
 
 export const connectToDatabase = () => {
-  connect("mongodb://localhost:27017/footpalace-db", {
+  connect(process.env.URI_DATABASE, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
