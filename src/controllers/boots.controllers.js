@@ -1,6 +1,7 @@
 import Boots from "../models/Boot.js";
 import BootsServices from "../services/boots.services.js";
 
+//testando o commit
 const bootsServices = new BootsServices();
 
 class BootsControllers {
