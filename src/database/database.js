@@ -12,3 +12,5 @@ export const connectToDatabase = () => {
       console.log(`Error when trying connection with MongoDB, Error: ${error}`)
     );
 };
+
+//teste
