@@ -13,12 +13,12 @@ class LoginServices {
     const correctPassword = await bcryptjs.compare(password, user.password);
 
     if (!correctPassword) {
-      throw { status: 400, message: "Incorrect password!" };
+      throw { status: 401, message: "Incorrect password!" };
     }
 
     const token = jwt.sign({ email: email }, "secret", { expiresIn: "8h" });
 
-    return { status: 200, token: token };
+    return { status: 200, token: token, userId: user._id };
   }
 }
 

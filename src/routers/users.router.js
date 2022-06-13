@@ -8,12 +8,16 @@ import { verifyAdminMiddleware } from "../middlewares/verifyAdmin.middleware.js"
 const usersControllers = new UsersControllers();
 export const usersRouter = Router();
 
-usersRouter.get("/find-users", verifyTokenMiddleware, verifyAdminMiddleware, usersControllers.getAllUsers);
+usersRouter.get(
+  "/find-users",
+  verifyTokenMiddleware,
+  verifyAdminMiddleware,
+  usersControllers.getAllUsers
+);
 
 usersRouter.get(
   "/find-user/:id",
   verifyTokenMiddleware,
-  verifyAdminMiddleware,
   verifyUserIdMiddleware,
   usersControllers.getUserById
 );

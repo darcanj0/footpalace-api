@@ -7,9 +7,9 @@ class LoginControllers {
     const { email, password } = req.body;
     try {
       const login = await loginServices.signIn({ email, password });
-      res.send({ token: login.token });
+      res.send({ token: login.token, userId: login.userId });
     } catch (error) {
-      res.status(error.status).send({message: error.message});
+      res.status(error.status).send({ message: error.message });
     }
   }
 }
