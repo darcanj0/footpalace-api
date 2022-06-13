@@ -27,7 +27,7 @@ To run locally (in case of issues):
 
 Link API rep: https://github.com/darcanj0/footpalace-api
 
-Link FrontEnd rep: https://footpalace-api.onrender.com
+Link FrontEnd rep: https://github.com/darcanj0/footpalace-react
 
 ## Stacks
 
