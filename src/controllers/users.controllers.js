@@ -19,13 +19,13 @@ class UsersControllers {
   }
 
   async createUser(req, res) {
-    const { email, name, password, admin } = req.body;
+    const { email, name, password, adminPass } = req.body;
     try {
       const createdUser = await usersServices.createUser({
         email,
         name,
         password,
-        admin,
+        adminPass,
       });
       res.status(201).send(createdUser);
     } catch (error) {

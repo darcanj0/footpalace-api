@@ -1,5 +1,8 @@
 import Users from "../models/User.js";
 import bcryptjs from "bcryptjs";
+import { config } from "dotenv";
+
+config();
 
 class UsersServices {
   async getAllUsers() {
@@ -15,9 +18,19 @@ class UsersServices {
     return selectedUser;
   }
 
-  async createUser({ email, name, password, admin }) {
+  async createUser({ email, name, password, adminPass }) {
+    const correctAdminPass = await bcryptjs.hash(process.env.ADMIN_PASS, 8);
+    const adminPassIsCorrect = await bcryptjs.compare(
+      adminPass,
+      correctAdminPass
+    );
     const encryptedPassword = await bcryptjs.hash(password, 8);
-    const newUser = { email, name, password: encryptedPassword, admin };
+    const newUser = {
+      email,
+      name,
+      password: encryptedPassword,
+      admin: adminPassIsCorrect,
+    };
     try {
       const createdUser = await Users.create(newUser);
       return createdUser;
